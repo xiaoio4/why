@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HttpDownload.h"
 
 @interface RootViewController : UITabBarController
+{
+    HttpDownload *httpDownload;
+}
+
+@property (nonatomic, strong) HttpDownload *httpDownload;
 
 @end
